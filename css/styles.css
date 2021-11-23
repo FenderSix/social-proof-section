@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: #511f50; /* fallback color */
+  color: hsl(300, 43%, 22%);
+  text-align: left;
+}
+
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+/* Quote Boxes */
+.quote-box {
+  background-color: #511f50; /* fallback color */
+  background-color: hsl(300, 43%, 22%);
+  padding: 10%;
+  border-radius: 10px;
+}
+
+.identity {
+  padding: 0;
+  line-height: .7rem;
+}
+
+.portrait {
+  border-radius: 100%;
+  float: left;
+}
+
+.person {
+  color: #caa2c8; /* fallback color */
+  color: hsl(303, 10%, 53%);
+  font-weight: 700;
+}
+
+.verified {
+  color: #ab2260; /* fallback color */
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+
+.quote {
+  color: #f5baf5; /* fallback color */
+  color: hsl(303, 10%, 53%);
+}
+
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e4870; /* Fallback color */
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+/* @media (max-width: 980px) {
+  .firstBox {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .thirdBox {
+    border-radius: 0 0 1rem 1rem;
+  }
+} */
